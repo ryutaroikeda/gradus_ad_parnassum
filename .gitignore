@@ -1,0 +1,6 @@
+*.DS_Store
+*.swp
+*~
+*.midi
+*.pdf
+*.band/
