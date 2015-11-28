@@ -24,7 +24,7 @@ DorianCFi = \new Voice  {
   \relative c' {
     \set Staff.instrumentName = #"c.f."
     \set Score.tempoHideNote = ##t
-    \tempo 4 = 280
+    \tempo 4 = 180
     \clef "treble"
     \time 4/4
     d1 | f1 | e1 | d1 |
@@ -336,6 +336,270 @@ secondIonianCPii = \new Voice {
     g'2 b2 | c1 \bar "||"
   }
 }
+thirdDorianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    d4 c4 a4 b4 |
+    a4 d4 e4 f4 |
+    g4 c,4 d4 e4 |
+    f4 e4 d4 c4 |
+    b4 c4 e4 d4 |
+    d4 a4 bes4 c4 |
+    c4 d4 f4 e4 |
+    e4 d4 c4 b4 |
+    a4 bes4 d4 c4 |
+    g4 a4 b4 cis4 |
+    d1 \bar "||"
+  }
+}
+thirdDorianCPii = \new Voice {
+  \relative c' {
+    \clef "treble_8"
+    r4 d4 bes4 g4 |
+    f4 g4 a4 b4 |
+    c4 a4 g4 a4 |
+    b4 a4 g4 f4 |
+    e4 g4 a4 b4 |
+    d4 bes4 a4 f4 |
+    d4 f4 g4 a4 |
+    bes4 e4 d4 c4 | 
+    d4 f4 e4 d4 |
+    cis4 a4 b4 cis4 |
+    d1 \bar "||"
+  }
+}
+thirdPhrygianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    r4 b4 b4 g4 |
+    e4 f4 g4 a4 |
+    b4 b4 c4 d4 |
+    e4 c4 d4 e4 |
+    f4 e4 c4 e4 |
+    e4 c4 d4 e4 |
+    b4 c4 e4 d4 |
+    c4 g4 c4 g'4 |
+    f4 e4 c4 d4 |
+    e1 \bar "||"
+  }
+}
+thirdPhrygianCPii = \new Voice {
+  \relative c' {
+    \clef "treble_8"
+    r4 e4 e,4 g4 |
+    a4 f4 g4 a4 |
+    bes4 a4 f4 g4 |
+    e4 f4 a4 c4 |
+    f4 e4 c4 a4 |
+    f4 g4 a4 b4 |
+    c4 g4 a4 b4 |
+    c4 b4 g4 c4 |
+    d4 bes4 c4 d4 |
+    e1 \bar "||"
+  }
+}
+thirdLydianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    r4 f4 e d |
+    e4 d c b |
+    c d e c |
+    d c b a |
+    b a f a |
+    g a b c |
+    d c a c |
+    e g f e |
+    f e d c |
+    d c bes a |
+    bes c d e |
+    f1 \bar "||"
+  }
+}
+thirdLydianCPii = \new Voice {
+  \relative c' {
+    \clef "treble_8"
+    r4 f4 d a |
+    bes c d e |
+    f e c d |
+    a a b c |
+    b a g f |
+    g a c a |
+    d f, a c |
+    a c e f |
+    f e d c |
+    a bes c d |
+    e c d e |
+    f1 \bar "||"
+  }
+}
+thirdMixolydianCPi = \new Voice {
+  \relative c' {
+    \clef "treble"
+    r4 d g b |
+    e e, g c |
+    d b g d |
+    e e' d e |
+    a, b c d |
+    c b a g |
+    f g a b |
+    b c d e |
+    g e c g |
+    e g c e |
+    f d b f |
+    d g b d, |
+    c d e fis |
+    g1 \bar "||"
+  }
+}
+thirdMixolydianCPii = \new Voice {
+  \relative c' {
+    \clef "bass"
+    r4 g f e |
+    e c a c |
+    d b g b |
+    c g b e |
+    a a, c e |
+    g c, d e |
+    f g, a b |
+    d e f g |
+    a g c, a |
+    e' c a f |
+    b c d e |
+    e g e b |
+    c d e fis |
+    g1 \bar "||"
+  }
+}
+thirdAeolianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    r4 a g f |
+    e e' d c |
+    d c b a |
+    b a g f |
+    e g a b |
+    c b a g |
+    a c bes a |
+    g c b g |
+    a d c b |
+    a g f e |
+    d e fis gis |
+    a1 \bar "||"
+  }
+}
+thirdAeolianCPii = \new Voice {
+  \relative c' {
+    \clef "bass"
+    r4 a g f |
+    e a, c e |
+    g c, e g |
+    f b a g |
+    a e g a |
+    g e c a |
+    d g, a b |
+    c d e f |
+    g f d e |
+    e a, b c |
+    d e fis gis |
+    a1 \bar "||"
+  }
+}
+thirdIonianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    r4 g a b |
+    c d e c |
+    d c b a |
+    b d g e |
+    c c e c |
+    c d f e |
+    e d c b |
+    c b a g |
+    a f g a |
+    g c, d e |
+    f g a b |
+    c1 \bar "||"
+  }
+}
+thirdIonianCPii = \new Voice {
+  \relative c' {
+    \clef "treble_8"
+    r4 c b a |
+    g c b c |
+    d c b a |
+    b c d e |
+    gis, a b c |
+    f, g a b |
+    c b c g |
+    g c c g |
+    a d c b |
+    c g a b |
+    b g a b |
+    c1 \bar "||"
+  }
+}
+fourthDorianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    r2 d2~ |
+    d2 a2~ |
+    a2 g2 |
+    a2 b2~ |
+    b2 d2~ |
+    d2 c2~ |
+    c2 f2~ |
+    f2 e2~ |
+    e2 d2~ |
+    d2 cis2 |
+    d1 \bar "||"
+  }
+}
+fourthDorianCPii = \new Voice {
+  \relative c' {
+    \clef "treble_8"
+    r2 d2~ |
+    d2 a2~ |
+    a2 c2~ |
+    c2 b2~ |
+    b2 e2~ |
+    e2 d2~ |
+    d2 f2~ |
+    f2 e2~ |
+    e2 d2~ |
+    d2 cis2 |
+    d1 \bar "||"
+  }
+}
+fourthPhrygianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    r2 b2~ |
+    b2 a2~ |
+    a2 f2~ |
+    f2 e2~ |
+    e2 e'2~ |
+    e2 c2~ |
+    c2 b2~ |
+    b2 e2~ |
+    e2 d2 |
+    e1 \bar "||"
+  }
+}
+fourthPhrygianCPii = \new Voice {
+  \relative c' {
+    \clef "treble_8"
+    r2 e2~ |
+    e2 a,2~ |
+    a2 g2~ |
+    g2 f2~ |
+    f2 f'2~ |
+    f2 e2~ |
+    e2 c2~ |
+    c2 e2~ |
+    e2 d2 |
+    e1 \bar "||"
+  }
+}
 \book {
   \header {
     title = "Gradus ad Parnassum"
@@ -486,6 +750,101 @@ secondIonianCPii = \new Voice {
      \midi {}
      \layout {}
    }
-
+   \score {
+     \header {piece = "XXV. Third Species in Dorian Above the c.f." }
+     \exerciseStaff \thirdDorianCPi \DorianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XXVI. Third Species in Dorian Below the c.f." }
+     \exerciseStaff \DorianCFi \thirdDorianCPii 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XXVII. Third Species in Phrygian Above the c.f." }
+     \exerciseStaff \thirdPhrygianCPi \PhrygianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XXVIII. Third Species in Phrygian Below the c.f." }
+     \exerciseStaff \PhrygianCFi \thirdPhrygianCPii 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XXIX. Third Species in Lydian Above the c.f." }
+     \exerciseStaff \thirdLydianCPi \LydianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XXX. Third Species in Lydian Below the c.f." }
+     \exerciseStaff \LydianCFi \thirdLydianCPii 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XXXI. Third Species in Mixolydian Above the c.f." }
+     \exerciseStaff \thirdMixolydianCPi \MixolydianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XXXII. Third Species in Mixolydian Below the c.f." }
+     \exerciseStaff \MixolydianCFi \thirdMixolydianCPii 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XXXIII. Third Species in Aeolian Above the c.f." }
+     \exerciseStaff \thirdAeolianCPi \AeolianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XXXIV. Third Species in Aeolian Below the c.f." }
+     \exerciseStaff \AeolianCFi \thirdAeolianCPii 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XXXV. Third Species in Ionian Above the c.f." }
+     \exerciseStaff \thirdIonianCPi \IonianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XXXVI. Third Species in Ionian Below the c.f." }
+     \exerciseStaff \IonianCFi \thirdIonianCPii 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XXXVII. Fourth Species in Dorian Above the c.f." }
+     \exerciseStaff \fourthDorianCPi \DorianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XXXVIII. Fourth Species in Dorian Below the c.f." }
+     \exerciseStaff \DorianCFi \fourthDorianCPii
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XXXIX. Fourth Species in Phrygian Above the c.f." }
+     \exerciseStaff \fourthPhrygianCPi \PhrygianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XL. Fourth Species in Phrygian Below the c.f." }
+     \exerciseStaff \PhrygianCFi \fourthPhrygianCPii
+     \midi {}
+     \layout {}
+   }
 }
  

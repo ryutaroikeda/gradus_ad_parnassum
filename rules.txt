@@ -1,20 +1,23 @@
 Gradus ad Parnassum
 Definitions
-I. Unison, third, fifth, sixth, octave, and the intervals made up of these and
-the octaves are consonants.
-II. The unison, fifth, and octave are perfect, the third and sixth imperfect.
+I. Unison, third, fifth, sixth, octave, and the intervals made up of 
+these and the octaves are consonants.
+II. The unison, fifth, and octave are perfect, the third and sixth 
+imperfect.
 III. The remaining intervals are dissonances.
-IV. Direct motion results when two or more parts ascend or descend in the same
-direction by step or skip.
+IV. Direct motion results when two or more parts ascend or descend in the 
+same direction by step or skip.
 V. Contrary motion results when one part ascends while the other descends.
-VI. Oblique motion results when one part moves while the other is stationary.
-XX. The first species is a composition of two or more voices having notes of 
-the same length and consisting only of consoances.
+VI. Oblique motion results when one part moves while the other is 
+stationary.
+XX. The first species is a composition of two or more voices having notes 
+of the same length and consisting only of consoances.
 Rules
-VII. From a consonance to a perfect consonance one must not use direct motion.
+VII. From a consonance to a perfect consonance one must not use direct 
+motion.
 VIII. The end and beginning must be perfect consonances.
-IX. In the next to last bar, there must be a major sixth if the cantus firmus 
-is in the lower part and a minor third if it is in the upper part.
+IX. In the next to last bar, there must be a major sixth if the cantus 
+firmus is in the lower part and a minor third if it is in the upper part.
 X. The counterpoint must be in the same mode as the cantus firmus.
 XI. A skip by an augmented fourth (tritone) is prohibited.
 XII. The tritone is to be avoided when reached stepwise if the line is not 
@@ -22,23 +25,31 @@ continued stepwise in the same direction in one part.
 XIII. Use more imperfect than perfect consonances.
 XIV. Use more contrary and oblique motion than direct motion.
 XV. A skip of a major sixth is prohibited.
-XV. In the first species, a unison is to be avoided except at the beginning or
-the end.
-XVI. In the second species, each measure consists of two equal parts, the first
-of which is the downbeat and the second the upbeat. Two half-notes are set
-against a whole note.
+XV. In the first species, a unison is to be avoided except at the 
+beginning or the end.
+XVI. In the second species, each measure consists of two equal parts, the 
+first of which is the downbeat and the second the upbeat. Two half-notes 
+are set against a whole note.
 XVII. The downbeat must be consonant.
-XVIII. The upbeat may be dissonant if it moves from preceding note and to the
-following in stepwise motion.
+XVIII. The upbeat may be dissonant if it moves from preceding note and to 
+the following in stepwise motion.
 XIX. A dissonance may only occur by diminution (by filling the note between
 two notes that are a third apart).
-XX. In the next to last measure, if the cantus firmus is below, there should be
-a fifth followed by a major sixth. If it is above, there should be a fifth
-followed by a minor third.
-XXI. The skip of a third on the upbeat cannot prevent a succession of fifths or
-octaves.
+XX. In the next to last measure, if the cantus firmus is below, there 
+should be a fifth followed by a major sixth. If it is above, there should 
+be a fifth followed by a minor third.
+XXI. The skip of a third on the upbeat cannot prevent a succession of 
+fifths or octaves.
 XXII. One may use a half-rest in the place of the first note.
-XXIII. If it is not possible to use contrary motion, one may take the skip of 
-a minor sixth or an octave. (Redundant?)
+XXIII. If it is not possible to use contrary motion, one may take the 
+skip of a minor sixth or an octave. (Redundant?)
 XXIV. In ternary time, the middle of three notes in a bar may be dissonant;
 otherwise all notes are consonant.
+- Third species
+Four quarter notes against a whole note.
+If five quarter notes ascend or descend stepwise, the second and fourth 
+notes are dissonant.
+If the second and fourth notes are consonant, the third may be dissonant 
+by diminution.
+Nota cambiata. One may go from a dissonant second note to a consonant by 
+step in the same direction
