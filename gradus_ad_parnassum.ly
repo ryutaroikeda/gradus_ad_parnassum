@@ -600,6 +600,112 @@ fourthPhrygianCPii = \new Voice {
     e1 \bar "||"
   }
 }
+fourthLydianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    r2 f2~ |
+    f2 e2~ |
+    e2 c2~ |
+    c2 d2~ |
+    d2 b2~ |
+    b2 e2~ |
+    e2 d2~ |
+    d2 c2~ |
+    c2 d2~ |
+    d2 f2~ |
+    f2 e2 |
+    f1 \bar "||"
+  }
+}
+fourthLydianCPii = \new Voice {
+  \relative c' {
+    \clef "treble_8"
+    r2 f2~ |
+    f2 e2~ |
+    e2 d2~ |
+    d2 a2~ |
+    a2 g2~ |
+    g2 c2~ |
+    c2 bes2~ |
+    bes2 a~ |
+    a2 c2 |
+    c f~ |
+    f e |
+    f1 \bar "||"
+  }
+}
+fourthMixolydianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    r2 g~ |
+    g a~ |
+    a g~ |
+    g b~ |
+    b a~ |
+    a g~ |
+    g f~ |
+    f e~ |
+    e b'~ |
+    b g~ |
+    g f~ |
+    f g~ |
+    g fis |
+    g1 \bar "||"
+  }
+}
+fourthMixolydianCPii = \new Voice {
+  \relative c' {
+    \clef "bass"
+    r2 g~ |
+    g2 f~ |
+    f d~ |
+    d c~ |
+    c e~ |
+    e g~ |
+    g f~ |
+    f e~ |
+    e g~ |
+    g f~ |
+    f d~ |
+    d g~ |
+    g fis |
+    g1 \bar "||"
+  }
+}
+fourthAeolianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    r2 a~ |
+    a e'~ |
+    e d~ |
+    d f~ |
+    f e~ |
+    e c~ |
+    c d~ |
+    d c~ |
+    c b~ |
+    b a~ |
+    a gis |
+    a1 \bar "||"
+  }
+}
+fourthAeolianCPii = \new Voice {
+  \relative c' {
+    \clef "bass"
+    r2 a~ |
+    a e~ |
+    e d~ |
+    d a'~ |
+    a e~ |
+    e c~ |
+    c b~ |
+    b a |
+    b f'~ |
+    f a~ |
+    a gis |
+    a1 \bar "||"
+  }
+}
 \book {
   \header {
     title = "Gradus ad Parnassum"
@@ -843,6 +949,42 @@ fourthPhrygianCPii = \new Voice {
    \score {
      \header {piece = "XL. Fourth Species in Phrygian Below the c.f." }
      \exerciseStaff \PhrygianCFi \fourthPhrygianCPii
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XLI. Fourth Species in Lydian Above the c.f." }
+     \exerciseStaff \fourthLydianCPi \LydianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XLII. Fourth Species in Lydian Below the c.f." }
+     \exerciseStaff \LydianCFi \fourthLydianCPii
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XLIII. Fourth Species in Mixolydian Above the c.f." }
+     \exerciseStaff \fourthMixolydianCPi \MixolydianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XLIV. Fourth Species in Mixolydian Below the c.f." }
+     \exerciseStaff \MixolydianCFi \fourthMixolydianCPii
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XLV. Fourth Species in Aeolian Above the c.f." }
+     \exerciseStaff \fourthAeolianCPi \AeolianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XLIVI. Fourth Species in Aeolian Below the c.f." }
+     \exerciseStaff \AeolianCFi \fourthAeolianCPii
      \midi {}
      \layout {}
    }
