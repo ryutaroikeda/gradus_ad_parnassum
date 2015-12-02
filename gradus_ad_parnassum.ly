@@ -706,6 +706,72 @@ fourthAeolianCPii = \new Voice {
     a1 \bar "||"
   }
 }
+fourthIonianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    r2 g~ |
+    g g'~ |
+    g f~ |
+    f e~ |
+    e c~ |
+    c e~ |
+    e d~ |
+    d c~ |
+    c d~ |
+    d c~ |
+    c b |
+    c1 \bar "||"
+  }
+}
+fourthIonianCPii = \new Voice {
+  \relative c' {
+    \clef "treble_8"
+    r2 c~ |
+    c a~ |
+    a d~ |
+    d c~ | 
+    c g'~ |
+    g f~ |
+    f e~ |
+    e c |
+    a d~ |
+    d c~ |
+    c b |
+    c1 \bar "||"
+  }
+}
+fifthDorianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    r4 d c b |
+    a2 d2~ |
+    d4 c8 b c2~ |
+    c4 b8 a b2~ |
+    b4 c d e |
+    d a d f |
+    c2 f~ |
+    f e~ |
+    e4 d a f |
+    g a b cis |
+    d1 \bar "||"
+  }
+}
+fifthDorianCPii = \new Voice {
+  \relative c' {
+    \clef "treble_8"
+    r2 d2~ |
+    d4 a c2~ |
+    c4 g b2~ |
+    b4 a b c |
+    b c d e |
+    d e f g |
+    f2 c2~ |
+    c4 g a b |
+    a4 g f g |
+    a2 cis |
+    d1 \bar "||"
+  }
+}
 \book {
   \header {
     title = "Gradus ad Parnassum"
@@ -985,6 +1051,30 @@ fourthAeolianCPii = \new Voice {
    \score {
      \header {piece = "XLIVI. Fourth Species in Aeolian Below the c.f." }
      \exerciseStaff \AeolianCFi \fourthAeolianCPii
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XLVII. Fourth Species in Ionian Above the c.f." }
+     \exerciseStaff \fourthIonianCPi \IonianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XLIVIII. Fourth Species in Ionian Below the c.f." }
+     \exerciseStaff \IonianCFi \fourthIonianCPii
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "XLIX. Fifth Species in Dorian Above the c.f." }
+     \exerciseStaff \fifthDorianCPi \DorianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "L. Fifth Species in Dorian Below the c.f." }
+     \exerciseStaff \DorianCFi \fifthDorianCPii
      \midi {}
      \layout {}
    }
