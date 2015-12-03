@@ -772,6 +772,70 @@ fifthDorianCPii = \new Voice {
     d1 \bar "||"
   }
 }
+fifthPhrygianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    r4 e c g |
+    e2 a~ |
+    a4 b a g |
+    a1~ |
+    a4 c b a |
+    c2 f~ |
+    f4 e d c |
+    c b a g |
+    a b c d |
+    e1 \bar "||"
+  }
+}
+fifthPhrygianCPii = \new Voice {
+  \relative c' {
+    \clef "treble_8"
+    r2 e2~ |
+    e4 e, f g |
+    f a b2~ |
+    b4 a c e |
+    f2 e~ |
+    e4 e d c |
+    b2 d~ |
+    d c |
+    d4 bes c d |
+    e1 \bar "||"
+  }
+}
+fifthLydianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    c1 |
+    b4 c d e |
+    f2 e~ |
+    e4 d8 c d2~ |
+    d4 c b a |
+    g b c b |
+    a c f2~ |
+    f e~ |
+    e d~ |
+    d f~ |
+    f e |
+    f1 \bar "||" 
+  }
+}
+fifthLydianCPii = \new Voice {
+  \relative c' {
+    \clef "treble_8"
+    r4 f f d |
+    c d e2~ |
+    e2 d4 c | 
+    d d d a |
+    a1~ |
+    a4 g c b |
+    a d c b |
+    a a f2~ |
+    f4 e f g |
+    a c c a |
+    bes c d e |
+    f1 \bar "||"
+  }
+}
 \book {
   \header {
     title = "Gradus ad Parnassum"
@@ -1075,6 +1139,30 @@ fifthDorianCPii = \new Voice {
    \score {
      \header {piece = "L. Fifth Species in Dorian Below the c.f." }
      \exerciseStaff \DorianCFi \fifthDorianCPii
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "LI. Fifth Species in Phrygian Above the c.f." }
+     \exerciseStaff \fifthPhrygianCPi \PhrygianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "LII. Fifth Species in Phrygian Below the c.f." }
+     \exerciseStaff \PhrygianCFi \fifthPhrygianCPii
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "LIII. Fifth Species in Lydian Above the c.f." }
+     \exerciseStaff \fifthLydianCPi \LydianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "LIV. Fifth Species in Lydian Below the c.f." }
+     \exerciseStaff \LydianCFi \fifthLydianCPii
      \midi {}
      \layout {}
    }
