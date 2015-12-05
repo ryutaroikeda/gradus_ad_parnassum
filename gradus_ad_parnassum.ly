@@ -24,7 +24,7 @@ DorianCFi = \new Voice  {
   \relative c' {
     \set Staff.instrumentName = #"c.f."
     \set Score.tempoHideNote = ##t
-    \tempo 4 = 180
+    \tempo 4 = 160
     \clef "treble"
     \time 4/4
     d1 | f1 | e1 | d1 |
@@ -55,7 +55,7 @@ PhrygianCFi = \new Voice {
   \relative c' {
     \set Staff.instrumentName = #"c.f."
     \set Score.tempoHideNote = ##t
-    \tempo 4 = 220
+    \tempo 4 = 160
     \clef "treble"
     e1 | c1 | d1 | c1 |
     a1 | a'1 | g1 | e1 |
@@ -86,7 +86,7 @@ LydianCFi = \new Voice {
     \set Staff.instrumentName = #"c.f."
     \set Score.tempoHideNote = ##t
     \clef "treble_8"
-    \tempo 4 = 320
+    \tempo 4 = 160
     f1 | g1 | a1 | f1 |
     d1 | e1 | f1 | c'1 |
     a1 | f1 | g1 | f1  \bar "||"
@@ -115,7 +115,7 @@ MixolydianCFi = \new Voice {
   \relative c' {
     \set Staff.instrumentName = #"c.f."
     \set Score.tempoHideNote = ##t
-    \tempo 4 = 240
+    \tempo 4 = 160
     \clef "treble"
     g1 | c1 | b1 | g1 |
     c1 | e1 | d1 | g1 |
@@ -149,7 +149,7 @@ AeolianCFi = \new Voice {
     \set Staff.instrumentName = #"c.f."
     \set Score.tempoHideNote = ##t
     \clef "treble"
-    \tempo 4 = 320
+    \tempo 4 = 160
     a1 | c1 | b1 | d1 |
     c1 | e1 | f1 | e1 |
     d1 | c1 | b1 | a1  \bar "||"
@@ -178,7 +178,7 @@ IonianCFi = \new Voice {
   \relative c' {
     \set Staff.instrumentName = #"c.f."
     \set Score.tempoHideNote = ##t
-    \tempo 4 = 240
+    \tempo 4 = 160
     \clef "treble"
     c1 | e1 | f1 | g1 |
     e1 | a1 | g1 | e1 |
@@ -836,6 +836,112 @@ fifthLydianCPii = \new Voice {
     f1 \bar "||"
   }
 }
+fifthMixolydianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    g1 |
+    e2 a~ |
+    a4 g b c |
+    d2 b~ |
+    b4 a e a |
+    g2 c~ |
+    c b4 a |
+    b4 d c b | 
+    c2 e~ |
+    e4 d c b |
+    a2 b~ |
+    b4 a g2~ |
+    g2 fis |
+    g1 \bar "||"
+  }
+}
+fifthMixolydianCPii = \new Voice {
+  \relative c' {
+    \clef "bass"
+    r4 g c, e |
+    e1~ |
+    e4 d e f |
+    e2 b~ |
+    b2 a~ |
+    a4 g b2~ |
+    b f'~ |
+    f4 e f g |
+    a4 e a2~ |
+    a4 g8 f e2~ |
+    e2 d4 e |
+    f2 g~ |
+    g fis |
+    g1 \bar "||"
+  }
+}
+fifthAeolianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    r2 a2~ |
+    a4 a b c |
+    d1~ |
+    d4 c b a |
+    a1~ |
+    a4 g a b |
+    a2 d~ |
+    d4 c b a |
+    b2 f~ |
+    f e |
+    d4 e fis gis |
+    a1 \bar "||"
+  }
+}
+fifthAeolianCPii = \new Voice {
+  \relative c' {
+    \clef "bass"
+    a1 |
+    e |
+    g2 d |
+    f1~ |
+    f4 e8 d c2~ |
+    c1~ |
+    c4 bes a bes |
+    c4 b a g |
+    f4 g a b |
+    c4 d  e2~ |
+    e gis |
+    a1 \bar "||"
+  }
+}
+fifthIonianCPi = \new Voice {
+  \relative c'' {
+    \clef "treble"
+    r4 g a b |
+    c g c b |
+    a d d c |
+    b c8 d e4 g |
+    g e c c |
+    c2 f~ |
+    f4 e8 d e2~ |
+    e4 d8 c b2~ |
+    b2 a~ |
+    a g |
+    a b |
+    c1 \bar "||"
+  }
+}
+fifthIonianCPii = \new Voice {
+  \relative c' {
+    \clef "bass"
+    c1 |
+    a2 g~ |
+    g4 f8 g a4 b |
+    b1~ |
+    b4 b a g |
+    f1~ |
+    f4 e8 d c2~ |
+    c4 a b c |
+    d1~ |
+    d4 c d e |
+    f g a b |
+    c1 \bar "||"
+  }
+}
 \book {
   \header {
     title = "Gradus ad Parnassum"
@@ -1163,6 +1269,42 @@ fifthLydianCPii = \new Voice {
    \score {
      \header {piece = "LIV. Fifth Species in Lydian Below the c.f." }
      \exerciseStaff \LydianCFi \fifthLydianCPii
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "LV. Fifth Species in Mixolydian Above the c.f." }
+     \exerciseStaff \fifthMixolydianCPi \MixolydianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "LVI. Fifth Species in Mixolydian Below the c.f." }
+     \exerciseStaff \MixolydianCFi \fifthMixolydianCPii
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "LVII. Fifth Species in Aeolian Above the c.f." }
+     \exerciseStaff \fifthAeolianCPi \AeolianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "LVIII. Fifth Species in Aeolian Below the c.f." }
+     \exerciseStaff \AeolianCFi \fifthAeolianCPii
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "LIX. Fifth Species in Ionian Above the c.f." }
+     \exerciseStaff \fifthIonianCPi \IonianCFi 
+     \midi {}
+     \layout {}
+   }
+   \score {
+     \header {piece = "LX. Fifth Species in Ionian Below the c.f." }
+     \exerciseStaff \IonianCFi \fifthIonianCPii
      \midi {}
      \layout {}
    }
